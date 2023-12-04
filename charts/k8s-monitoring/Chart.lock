@@ -20,5 +20,8 @@ dependencies:
 - name: opencost
   repository: https://opencost.github.io/opencost-helm-chart
   version: 1.27.0
-digest: sha256:6798f021e73e402047c489f56c5d4b462b4ba124fe33a50cf7aa164b3c9e631d
-generated: "2023-12-05T00:16:55.43596185Z"
+- name: trivy-operator
+  repository: https://aquasecurity.github.io/helm-charts
+  version: 0.19.1
+digest: sha256:138f38ff300968339bff7fd34a1de7148a663a7766fbed2fe99419b0a951280d
+generated: "2023-12-14T17:12:45.305537-06:00"

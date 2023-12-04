@@ -41,3 +41,8 @@ dependencies:
   version: 1.27.0
   repository: https://opencost.github.io/opencost-helm-chart
   condition: opencost.enabled
+- name: trivy-operator
+  version: 0.19.1
+  repository: https://aquasecurity.github.io/helm-charts
+  condition: trivy-operator.enabled
+
